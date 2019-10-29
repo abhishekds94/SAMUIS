@@ -2409,7 +2409,7 @@ input:-internal-autofill-selected {
 /* line 46, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_banner.scss */
 .banner_part .banner_text h1 {
   font-size: 80px;
-  text-transform: capitalize;
+  /*text-transform: capitalize; */
   font-weight: 700;
   margin-bottom: 32px;
   line-height: 85px;
@@ -2569,7 +2569,7 @@ input:-internal-autofill-selected {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
   .service_part {
-    padding: 200px 0px 80px;
+    padding: 100px 0px 80px;
   }
 }
 
@@ -4557,7 +4557,7 @@ input:-internal-autofill-selected {
 /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part {
   background-color: #faf4ff;
-  padding: 130px 0px 25px;
+  padding: 00px 0px 0px;
 }
 
 @media (max-width: 576px) {
@@ -6882,7 +6882,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part {
   background-color: #faf4ff;
-  padding: 130px 0px 25px;
+  padding: 0px 0px 25px;
 }
 
 @media (max-width: 576px) {
