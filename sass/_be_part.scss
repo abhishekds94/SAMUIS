@@ -2,7 +2,7 @@
 .be_part {
   position: relative;
   z-index: 99;
-  //@include background("../img/review_bg.png");
+  @include background("../img/review_bg.png");
   padding: 140px 0 180px;
   @media #{$tab}{
     padding: 70px 0;
