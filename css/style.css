@@ -2339,9 +2339,12 @@ input:-internal-autofill-selected {
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_banner.scss */
 .banner_part {
-  height: 950px;
+  height: 850px;
   position: relative;
-  background-image: url(../img/banner_img.png);
+  /*background-image: url(../img/banner_img.png);*/
+  /*background-image: linear-gradient(#9300ff 0%, #000000 0%, transparent),url(../img/bg.jpeg);*/
+  background-image: linear-gradient(to top, transparent 0%, black 99%),url(../img/bg.jpeg);
+  /*background-image: url(../img/bg.jpeg), -webkit-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
