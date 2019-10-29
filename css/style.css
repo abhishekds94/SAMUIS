@@ -4087,7 +4087,7 @@ input:-internal-autofill-selected {
 
 /* line 303, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_passion.scss */
 .passion_section_padding {
-  padding: 140px 0 !important;
+  padding: 40px 15px 0 0 !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4100,7 +4100,7 @@ input:-internal-autofill-selected {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 303, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_passion.scss */
   .passion_section_padding {
-    padding: 80px 0;
+    padding: 0px 0;
   }
 }
 
