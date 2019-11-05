@@ -110,8 +110,8 @@
         <script>
           function initMap() {
             var uluru = {
-              lat: -25.363,
-              lng: 131.044
+              lat: -89.6207156,
+              lng: 39.7301376
             };
             var grayStyles = [{
                 featureType: "all",
@@ -132,8 +132,8 @@
             ];
             var map = new google.maps.Map(document.getElementById('map'), {
               center: {
-                lat: -31.197,
-                lng: 150.744
+              lat: -89.6207156,
+              lng: 39.7301376
               },
               zoom: 9,
               styles: grayStyles,
@@ -142,7 +142,7 @@
           }
         </script>
         <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap">
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcDL-G5QnsPZPE93dA4-HC5ou2fDy0cIs&callback=initMap">
         </script>
 
       </div>
@@ -161,25 +161,25 @@
 
                   <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
-                    placeholder='Enter Message'></textarea>
+                    placeholder='Enter Message' required="required"></textarea>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
                   <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter your name'" placeholder='Enter your name'>
+                    onblur="this.placeholder = 'Enter your name'" placeholder='Enter your name' required="required">
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
                   <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter email address'" placeholder='Enter email address'>
+                    onblur="this.placeholder = 'Enter email address'" placeholder='Enter email address' required="required">
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-group">
                   <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter Subject'" placeholder='Enter Subject'>
+                    onblur="this.placeholder = 'Enter Subject'" placeholder='Enter Subject' required="required">
                 </div>
               </div>
             </div>
