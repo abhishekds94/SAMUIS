@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700&display=swap");
 /* line 1, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_extends.scss */
 .btn_2:hover, .btn_3 {
-  background-image: -webkit-linear-gradient(right, #7f00ff 0%, #e100ff 50%, #7f00ff 100%);
-  background-image: linear-gradient(to left, #7f00ff 0%, #e100ff 50%, #7f00ff 100%);
+  background-image: -webkit-linear-gradient(right, #020102 0%, #152878 50%, #020102 100%);
+                    /*-webkit-linear-gradient(right, #7f00ff 0%, #e100ff 50%, #7f00ff 100%)*/
+  background-image: linear-gradient(to left, #020102 0%, #152878 50%, #020102 100%);
+                    /*linear-gradient(to left, #7f00ff 0%, #e100ff 50%, #7f00ff 100%)*/
+                    
 }
 
 /**************** common css start ****************/
@@ -514,7 +517,7 @@ input:-internal-autofill-selected {
 
 /* line 40, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_button.scss */
 .btn_1:hover {
-  background-color: #8d00ff !important;
+  background-color: #152878 !important;
   color: #fff;
 }
 
@@ -525,13 +528,13 @@ input:-internal-autofill-selected {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
-  color: #8d00ff;
+  color: #152878;
   background-color: #fff;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   text-transform: uppercase;
-  border: 1px solid #8d00ff;
+  border: 1px solid #152878;
   border-radius: 2px;
   font-family: "Roboto", sans-serif;
   border-bottom-right-radius: 20px;
@@ -559,7 +562,7 @@ input:-internal-autofill-selected {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   text-transform: uppercase;
-  border: 1px solid #8d00ff;
+  border: 1px solid #152878;
   border-radius: 2px;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -588,7 +591,7 @@ input:-internal-autofill-selected {
   color: #fff;
   border: 1px solid #edeff2;
   text-transform: uppercase;
-  background-color: #8d00ff;
+  background-color: #152878;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -659,7 +662,7 @@ input:-internal-autofill-selected {
 
 /* line 14, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 20, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
@@ -1165,7 +1168,7 @@ input:-internal-autofill-selected {
 
 /* line 540, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
 .blog_details a:hover {
-  color: #8d00ff !important;
+  color: #152878 !important;
 }
 
 /* line 545, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
@@ -1233,7 +1236,7 @@ input:-internal-autofill-selected {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #8d00ff;
+  background-color: #152878;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1456,7 +1459,7 @@ input:-internal-autofill-selected {
 
 /* line 835, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #8d00ff;
+  background: #152878;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -1704,7 +1707,7 @@ input:-internal-autofill-selected {
 
 /* line 1201, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 1206, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog.scss */
@@ -2043,7 +2046,7 @@ input:-internal-autofill-selected {
 
 /* line 18, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p a {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 22, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_single_blog.scss */
@@ -2223,7 +2226,7 @@ input:-internal-autofill-selected {
 
 /* line 115, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
 .dropdown .dropdown-menu .dropdown-item:hover {
-  color: #8d00ff !important;
+  color: #152878 !important;
 }
 
 /* line 122, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
@@ -2289,11 +2292,11 @@ input:-internal-autofill-selected {
   .dropdown:hover .dropdown-menu {
     transform: scale(1);
     display: block;
-    color: #8d00ff;
+    color: #152878;
   }
   /* line 197, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
   .dropdown .dropdown-item:hover {
-    color: #8d00ff !important;
+    color: #152878 !important;
   }
 }
 
@@ -2317,7 +2320,7 @@ input:-internal-autofill-selected {
   position: fixed;
   z-index: 9999 !important;
   width: 100%;
-  background-color: #8d00ff;
+  background-color: #152878;
   top: 0;
 }
 
@@ -2342,9 +2345,9 @@ input:-internal-autofill-selected {
   height: 850px;
   position: relative;
   /*background-image: url(../img/banner_img.png);*/
-  /*background-image: linear-gradient(#9300ff 0%, #000000 0%, transparent),url(../img/bg.jpeg);*/
+  /*background-image: linear-gradient(#020102 0%, #000000 0%, transparent),url(../img/bg.jpeg);*/
   background-image: linear-gradient(to top, transparent 0%, black 99%),url(../img/bg.jpeg);
-  /*background-image: url(../img/bg.jpeg), -webkit-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);*/
+  /*background-image: url(../img/bg.jpeg), -webkit-linear-gradient(-89deg, #152878 0%, #020102 100%);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2457,7 +2460,7 @@ input:-internal-autofill-selected {
 
 /* line 77, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 82, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_banner.scss */
@@ -2598,7 +2601,7 @@ input:-internal-autofill-selected {
 
 /* line 30, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
 .service_part .service_text h2 span {
-  color: #8d00ff;
+  color: #152878;
 }
 
 @media (max-width: 991px) {
@@ -2672,7 +2675,7 @@ input:-internal-autofill-selected {
 .service_part .single_service_text a {
   text-transform: uppercase;
   font-size: 14px;
-  color: #8d00ff;
+  color: #152878;
   font-weight: 700;
   margin-top: 23px;
   display: inline-block;
@@ -2681,7 +2684,7 @@ input:-internal-autofill-selected {
 /* line 93, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
 .service_part .single_service_text i {
   font-size: 27px;
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 98, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
@@ -2701,9 +2704,9 @@ input:-internal-autofill-selected {
 
 /* line 117, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
 .service_part .single_service_text:hover {
-  background-image: -moz-linear-gradient(-66deg, #7f00ff 0%, #e100ff 100%);
-  background-image: -webkit-linear-gradient(-66deg, #7f00ff 0%, #e100ff 100%);
-  background-image: -ms-linear-gradient(-66deg, #7f00ff 0%, #e100ff 100%);
+  background-image: -moz-linear-gradient(-66deg, #152878 0%, #020102 100%);
+  background-image: -webkit-linear-gradient(-66deg, #152878 0%, #020102 100%);
+  background-image: -ms-linear-gradient(-66deg, #152878 0%, #020102 100%);
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 0;
@@ -2776,7 +2779,7 @@ input:-internal-autofill-selected {
 
 /* line 185, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
 .single_page_service .btn_1 {
-  background-color: #8d00ff;
+  background-color: #152878;
   color: #fff;
 }
 
@@ -2854,7 +2857,7 @@ input:-internal-autofill-selected {
 .about_us .about_us_text h5 {
   font-weight: 700;
   font-size: 24px;
-  border-left: 5px solid #8d00ff;
+  border-left: 5px solid #152878;
   padding-left: 20px;
 }
 
@@ -2975,7 +2978,7 @@ input:-internal-autofill-selected {
 /* line 127, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_about.scss */
 .about_us .about_us_text ul li span {
   margin-right: 10px;
-  color: #8d00ff;
+  color: #152878;
   position: absolute;
   top: 16px;
   left: 0;
@@ -3038,7 +3041,7 @@ input:-internal-autofill-selected {
 
 /* line 172, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_about.scss */
 .banner_item .single_item:hover {
-  border: 1px solid #8d00ff;
+  border: 1px solid #152878;
   box-shadow: 9px 10px 0px 4px #faf4ff;
 }
 
@@ -3804,7 +3807,7 @@ input:-internal-autofill-selected {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #8d00ff;
+  background-color: #152878;
   border-radius: 50%;
 }
 
@@ -3878,7 +3881,7 @@ input:-internal-autofill-selected {
 .passion_part .single-home-passion .card h5:hover {
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 154, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_passion.scss */
@@ -3955,12 +3958,12 @@ input:-internal-autofill-selected {
 
 /* line 207, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_passion.scss */
 .passion_part .passion_btn:hover {
-  color: #8d00ff !important;
+  color: #152878 !important;
 }
 
 /* line 210, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_passion.scss */
 .passion_part .passion_btn:hover:after {
-  background-color: #8d00ff;
+  background-color: #152878;
 }
 
 /* line 216, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_passion.scss */
@@ -4022,7 +4025,7 @@ input:-internal-autofill-selected {
 .passion_part .skill-bar {
   width: 100%;
   height: 6px;
-  background-color: #8d00ff;
+  background-color: #152878;
   display: block;
   position: relative;
   border-radius: 5px;
@@ -4036,7 +4039,7 @@ input:-internal-autofill-selected {
   height: 16px;
   width: 8px;
   content: "";
-  background-color: #8d00ff;
+  background-color: #152878;
   border-radius: 5px;
 }
 
@@ -4129,9 +4132,9 @@ input:-internal-autofill-selected {
   content: "";
   top: 0;
   left: 0;
-  background-image: -moz-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
-  background-image: -webkit-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
-  background-image: -ms-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
+  background-image: -moz-linear-gradient(-89deg, #152878 0%, #020102 100%);
+  background-image: -webkit-linear-gradient(-89deg, #152878 0%, #020102 100%);
+  background-image: -ms-linear-gradient(-89deg, #152878 0%, #020102 100%);
   opacity: 0.7;
   z-index: -1;
 }
@@ -4338,9 +4341,9 @@ input:-internal-autofill-selected {
 
 /* line 83, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_event.scss */
 .event_part .tricker {
-  background-image: -moz-linear-gradient(16deg, #9300ff 0%, #d500ff 100%);
-  background-image: -webkit-linear-gradient(16deg, #9300ff 0%, #d500ff 100%);
-  background-image: -ms-linear-gradient(16deg, #9300ff 0%, #d500ff 100%);
+  background-image: -moz-linear-gradient(16deg, #152878 0%, #020102 100%);
+  background-image: -webkit-linear-gradient(16deg, #152878 0%, #020102 100%);
+  background-image: -ms-linear-gradient(16deg, #152878 0%, #020102 100%);
   font-size: 16px;
   font-weight: 700;
   padding: 8px 6px;
@@ -4716,7 +4719,7 @@ input:-internal-autofill-selected {
 
 /* line 112, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a:hover {
-  color: #8d00ff !important;
+  color: #152878 !important;
 }
 
 /* line 118, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
@@ -4761,8 +4764,8 @@ input:-internal-autofill-selected {
   text-align: center;
   color: #fff;
   line-height: 10px;
-  background-color: #9300ff;
-  border: 1px solid #9300ff;
+  background-color: #020102;
+  border: 1px solid #020102;
 }
 
 /* line 157, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
@@ -4809,7 +4812,7 @@ input:-internal-autofill-selected {
 
 /* line 186, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .footer_icon li a :hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 @media (max-width: 991px) {
@@ -4835,20 +4838,20 @@ input:-internal-autofill-selected {
 
 /* line 210, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .copyright_text span {
-  color: #8d00ff;
+  color: #152878;
   font-size: 12px;
 }
 
 /* line 215, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .copyright_text p a {
-  color: #8d00ff;
+  color: #152878;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 /* line 218, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .copyright_text p a:hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 222, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
@@ -4882,7 +4885,7 @@ sup,
 sub,
 u,
 del {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 93, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
@@ -5049,28 +5052,28 @@ h1, h2, h3, h4, h5, h6 {
 /* line 217, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #8d00ff;
+  background: #152878;
   border: 1px solid transparent;
 }
 
 /* line 221, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #8d00ff;
-  border: 1px solid #8d00ff;
+  color: #152878;
+  border: 1px solid #152878;
   background: #fff;
 }
 
 /* line 227, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .genric-btn.primary-border {
-  color: #8d00ff;
-  border: 1px solid #8d00ff;
+  color: #152878;
+  border: 1px solid #152878;
   background: #fff;
 }
 
 /* line 231, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #8d00ff;
+  background: #152878;
   border: 1px solid transparent;
 }
 
@@ -5228,7 +5231,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #8d00ff;
+  border-left: 2px solid #152878;
 }
 
 /* line 353, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
@@ -5383,7 +5386,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #8d00ff;
+  border: 3px solid #152878;
   background: #fff;
   top: 4px;
   left: 0;
@@ -5398,7 +5401,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 475, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #8d00ff;
+  color: #152878;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -5413,7 +5416,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #8d00ff;
+  color: #152878;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -5428,7 +5431,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #8d00ff;
+  color: #152878;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -5511,7 +5514,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 568, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #8d00ff;
+  border: 1px solid #152878;
 }
 
 /* line 574, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
@@ -5579,7 +5582,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #8d00ff;
+  background: #152878;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -5670,7 +5673,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 696, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .primary-switch input:checked + label:before {
-  background: #8d00ff;
+  background: #152878;
 }
 
 /* line 704, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
@@ -6057,13 +6060,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1022, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #8d00ff;
+  color: #152878;
   background: transparent;
 }
 
 /* line 1026, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #8d00ff;
+  color: #152878;
   background: transparent;
 }
 
@@ -6120,13 +6123,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1067, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #8d00ff;
+  color: #152878;
   background: transparent;
 }
 
 /* line 1071, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #8d00ff;
+  color: #152878;
   background: transparent;
 }
 
@@ -6213,7 +6216,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 41, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
 .blog_part .blog_part_tittle h2 span {
-  color: #8d00ff;
+  color: #152878;
 }
 
 @media (max-width: 991px) {
@@ -6286,7 +6289,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 97, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
 .blog_part .single_blog .single_appartment_content p a {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 102, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
@@ -6349,12 +6352,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 156, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
 .blog_part .single_blog .list-unstyled li:hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 159, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
 .blog_part .single_blog .list-unstyled li:hover a {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 164, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
@@ -6448,7 +6451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 227, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
 .blog_part .right_single_blog .single_blog .media-body p a {
-  color: #8d00ff;
+  color: #152878;
   text-transform: uppercase;
   font-size: 12px;
   -webkit-transition: 0.7s;
@@ -6491,7 +6494,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 257, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
 .blog_part .right_single_blog .single_blog .media-body:hover {
-  background-color: #8d00ff !important;
+  background-color: #152878 !important;
 }
 
 /* line 260, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
@@ -6620,7 +6623,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 29, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_contact.scss */
@@ -6664,13 +6667,13 @@ h1, h2, h3, h4, h5, h6 {
 /* line 62, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_contact.scss */
 .form-contact .form-group .btn_1:hover {
   color: #fff;
-  border: 1px solid #8d00ff;
+  border: 1px solid #152878;
 }
 
 /* line 65, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_contact.scss */
 .form-contact .form-group .btn_1:hover i {
   background-color: #fff;
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 71, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_contact.scss */
@@ -6678,7 +6681,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   width: 50px;
   height: 50px;
-  background-color: #8d00ff;
+  background-color: #152878;
   display: inline-block;
   line-height: 50px;
   margin-left: 20px;
@@ -6813,9 +6816,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: -moz-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
-  background-image: -webkit-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
-  background-image: -ms-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
+  background-image: -moz-linear-gradient(-89deg, #152878 0%, #020102 100%);
+  background-image: -webkit-linear-gradient(-89deg, #152878 0%, #020102 100%);
+  background-image: -ms-linear-gradient(-89deg, #152878 0%, #020102 100%);
   opacity: 0.8;
   z-index: -1;
 }
@@ -7041,7 +7044,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 112, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a:hover {
-  color: #8d00ff !important;
+  color: #152878 !important;
 }
 
 /* line 118, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
@@ -7086,8 +7089,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #fff;
   line-height: 10px;
-  background-color: #9300ff;
-  border: 1px solid #9300ff;
+  background-color: #020102;
+  border: 1px solid #020102;
 }
 
 /* line 157, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
@@ -7134,7 +7137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 186, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .footer_icon li a :hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 @media (max-width: 991px) {
@@ -7160,20 +7163,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 210, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .copyright_text span {
-  color: #8d00ff;
+  color: #152878;
   font-size: 12px;
 }
 
 /* line 215, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .copyright_text p a {
-  color: #8d00ff;
+  color: #152878;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 /* line 218, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .copyright_text p a:hover {
-  color: #8d00ff;
+  color: #152878;
 }
 
 /* line 222, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
